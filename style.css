@@ -1,0 +1,64 @@
+
+body heade img {
+    float: left;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
+body heade div {
+    width: 100%; 
+    background-color: #ddd; 
+    padding: 80px;
+}
+header {
+    background-color: darkcyan;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 20px;
+} 
+header img{
+    float:left;
+}
+header div{
+    vertical-align:central;
+    max-width:960px;
+    margin:0 auto;
+}
+div li {
+    list-style-type: none;
+    float: left;
+    padding-left: 50px;
+    max-width:960px;
+}
+nav li {
+    float:left;
+}
+#list {
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 20px;
+    max-width: 160px;
+    
+}
+#tab {
+    padding: 80px;
+    color: darkcyan;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 20px;
+    max-width: 160px;
+}
+th {
+    background: #000000;
+}
+tr:nth-child(even) {
+    background: #CCC;
+}
+tr:nth-child(odd) {
+    background: #FFF;
+}
+body footer {
+    width: 100%;
+    background-color: #ddd;
+    padding: 80px;
+}
